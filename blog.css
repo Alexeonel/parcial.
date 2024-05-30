@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#contenedor2{
+    width: 70%;
+    margin:50px auto;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#cabezera{
+    height: 100px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#cabezera a{
+    font-size: 20pt;
+    text-align: center;
+    color: rgb(9, 217, 144);
+    text-decoration: none;
+}
+#cabezera a:hover{
+    color: gray;
+}
+#menu1{
+    position: sticky;
+    z-index: 100;
+    top: 100px;
+    border-top: 4px solid green;
+}
+#menu1 span{
+    filter: grayscale(100%);
+}
+#menu1 span:hover{
+    filter: grayscale(0%);
+}
+#menu1 ul{
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#menu1 ul,li,a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+}
+#menu1 li:hover{
+    border-bottom: 1px solid green;
+}
+#menu1 a:hover{
+    color: greenyellow;
+}
+#contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#img1,img{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px auto;
+    margin-top: 10px;
+    width: 95%;
+   
+}
+#img2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    margin: 35px auto;
+    width: 80%;
+    
+}
+#img2 h2{
+    text-align: center;
+    margin: 10px;
+}
+#img2 img{
+    margin: 0;
+    margin-right: 5px;
+    width: 220px;
+    float: left;
+}
+#img2 p{
+    font-size: 12pt;
+    text-align:justify;
+}
+#img3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    margin: 35px auto;
+    width: 80%;
+}
+#img3 h2{
+    text-align: center;
+    margin: 10px;
+}
+#img3 p img{
+    margin: 0;
+    margin-left: 5px;
+    width: 280px;
+    float: right;
+}
+#img3 p{
+    font-size: 12pt;
+    text-align:justify;
+}
+#pie{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#pie img{
+    width: 40px;
+}
+#pie img:hover{
+    filter: invert(60%);
+}
+/*galeria*/
+#galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    position: relative;
+    margin: 35px auto;
+}
+figure{
+    padding: 20px;
+    text-align: center;
+}
+figure img{
+    border-radius: 50px; 
+    max-width: 280px;
+    max-height: 200px;
+    padding: 15px;
+    height: 300px;
+    filter: opacity(70%);
+    
+}
+figure img:hover{
+    filter: opacity(100%);
+    filter: drop-shadow(4px 5px 6px );
+}
